@@ -32,10 +32,32 @@ img {
   width: 80%;
 }
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+#rollButton {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 30px; /* Padding around text */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Make it behave like an inline element */
+    font-size: 16px; /* Text size */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin: 20px 0; /* Space above and below button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
 
+#rollButton:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+#rollButton:active {
+    background-color: #367836; /* Even darker green when clicked */
+    transform: translateY(2px); /* Create a slight "pressed" effect */
+}
+
+#rollButton:focus {
+    outline: none; /* Remove outline when focused */
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.7); /* Add a green shadow to show focus */
 }
