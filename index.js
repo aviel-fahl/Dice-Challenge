@@ -21,4 +21,5 @@ function randomDiceGenerator() {
         heading.innerHTML = "Draw!";
     }
 }
-randomDiceGenerator();
+const button = document.getElementById("rollButton");
+button.addEventListener("click", randomDiceGenerator);
